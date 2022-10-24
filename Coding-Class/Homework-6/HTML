@@ -1,0 +1,14 @@
+<html>
+    <head>
+        Homepage
+    </head>
+    <body>
+      <h1>Hobbies</h1>  
+      <p>playing guitar</p>
+        
+      <!---br /!-->
+    </body>
+    <a href = "page 1.html">page 1 link</a>
+</html>
+
+

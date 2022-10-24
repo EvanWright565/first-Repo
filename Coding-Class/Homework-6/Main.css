@@ -1,0 +1,29 @@
+div{
+    font-family:fantasy
+    color :orange
+
+}
+.blueColor{
+    color:blue;
+    font-family:arial;
+    font-size:24px;
+}
+span.blueColor{
+    color:rgb(147, 223, 25);
+    font-family:arial;
+    font-size:24px;
+}
+#specificColor{
+    color:blue;
+    font-family:verdana;
+    font-size:24px;
+}
+#specificColor {
+    color: blue;
+    font-family: verdana;
+    font-size: 24px;
+  }
+  
+
+  
+  

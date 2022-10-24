@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Other Library Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/bootstrap-4.3.1/css/bootstrap.min.css">
+        <script src="./styles/bootstrap-4.3.1/js/jquery-3.4.1.min.js"></script>
+        <script src="./styles/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+        <script>
+            function checkboxes()
+            {
+                var firstName = document.getElementById("fName").value;
+                if(firstName == "")
+                {
+                    document.getElementById("fName").style.backgroundColor = "red";
+                    document.getElementById("fName").focus();
+                }
+
+                var lastName = document.getElementById("lName").value;
+                if(lastName == "")
+                {
+                    document.getElementById("lName").style.backgroundColor = "red";
+                    document.getElementById("lName").focus();
+                }
+                
+                var emailInput = document.getElementById("name").value;
+                if(emailInput == "")
+                {
+                    document.getElementById("name").style.backgroundColor = "red";
+                    document.getElementById("name").focus();
+                }
+
+                var termsBox = document.getElementById("termsOf").checked;
+                if(termsBox == false)
+                {
+                    document.getElementById("termsThing").style.backgroundColor = "red";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p>First Name: <input type="text" id="fName"></p>
+        <p>Last Name: <input type="text" id="lName"></p>
+        <p>email <input type="text " id="name"></p>
+        <p id="termsThing">terms of agreement<input type="checkbox" name="terms of agreement" value="terms of agreement" id="termsOf"></p>
+        <button id="mySubmit" type="submit" onclick='checkboxes();'>Submit</button>
+        <p><a href="homepage.html">homepage</a></p>
+        <p><button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button></p>
+    </body>
+</html>
